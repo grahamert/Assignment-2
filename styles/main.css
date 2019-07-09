@@ -1,0 +1,99 @@
+
+/*Styles for the html*/
+html{
+	background-image: url("../images/bats.gif");
+	background-repeat: repeat;
+}
+
+/*Styles for the body*/
+body { 
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	width: 800px;
+	margin:0 auto;
+	background-color: white;
+	border: 3px solid black;
+	box-shadow: 5px 5px 10px 10px;
+}
+
+/* the styles that provide the background behind the header */
+header {
+	text-indent: 1em;
+	border-bottom: 3px solid black;
+	background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);		
+	padding: 0.7em;
+} 	
+
+/*Styles for the sidebar*/
+sidebar {
+	width: 160px;
+	float: left;
+	margin-top: 1em;
+}
+
+/* styles for the anchor elements */
+a { font-weight: bold;
+	color: orange;
+	font-size: 100%;
+}
+a:link, a:visited { color: orange; }
+a:hover, a:focus { color: green; }
+ul { 
+	line-height: 1.5em;
+	padding-left: 2em;	
+}
+
+/*Styles for the main*/	
+main {
+	width: 640px;
+	float: right;
+}
+
+p {
+	margin-right: 2em;
+}
+
+header h2 {
+	font-size: 230%;
+	text-indent: 25px;
+	margin: 0;
+}
+
+header h3 { 
+	font-size: 125%;
+	text-indent: 25px; 
+	margin: 0;
+	padding-left: 1em;
+}
+	
+#main-h2 { font-size: 140%; }
+
+#main-h2::first-letter {
+	font-size: 240%; /*in main h2 header first letter size*/
+}
+
+.product-h2 { font-size: 125%;}
+ 
+main h3 { font-size: 110%; }
+
+/* styles for the picture */
+header img {
+	float: left;
+	margin-left: 1em;
+}
+
+/* styles for the footer */
+footer { 
+	text-align: center;
+	font-size: 90%;
+	border: 3px solid black;
+	border-width: 3px 0 0 0;
+	background-image: -moz-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+	background-image: -webkit-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+	background-image: -o-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+	background-image: linear-gradient(45deg, black 0%, orange 75%, white 100%); 
+	padding: 1px;
+	clear: both;
+}
